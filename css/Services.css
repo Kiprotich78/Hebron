@@ -1,0 +1,82 @@
+body{
+    margin-top: 100px;
+}
+.green-page{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: linear-gradient(to top, #00D4A8, #FFF);
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+a:hover{
+    color: rgb(194, 36, 36);
+}
+.heading{
+    text-align: center;
+    background: #24d1ae;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo{
+    position: fixed;
+    margin-left: 40px;
+    top: 0px;
+    left: 0px;
+}
+.action-bar{
+    width: 50%;
+}
+.image{
+    height: 150px;
+   
+}
+.heading3{
+    font-style: italic;
+    color: rgb(55, 55, 145);
+    background-color: rgba(134, 7, 24, 0.219);
+    text-align: center;
+}
+h3:hover{
+    color: rgb(20, 117, 28);
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.coms{
+    display: flex;
+    justify-content: center;
+}
+.photos{
+    background-color: rgb(206, 123, 123);
+}
+.photos:hover{
+    transform: scale(1.1);
+}
+img:hover{
+    transform: scale(1.1);
+}
+#Footer{
+    color: #FFF;
+    background: #000000;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+}

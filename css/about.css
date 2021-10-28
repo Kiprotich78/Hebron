@@ -1,0 +1,55 @@
+body{
+    margin-top: 100px;
+}
+.green-page{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: linear-gradient(to top, #00D4A8, #FFF);
+    text-align: center;
+}
+img:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+a:hover{
+    color: rgb(194, 36, 36);
+}
+.heading{
+    background: #24d1ae;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.action-bar{
+    width: 50%;
+}
+.logo{
+    position: fixed;
+    margin-left: 40px;
+    top: 0px;
+    left: 0px;
+}
+.ab{
+    border: 2px solid red;
+    border-radius: 20px;
+}
+footer{
+    background: #000000;
+    text-align: center;
+    color: #FFF;
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+}
